@@ -29,7 +29,10 @@ check.addEventListener("click", () => {
         uyarı.textContent = "Lütfen 11 haneli tc numaranızı giriniz.."
         checkappend.appendChild(uyarı)
         uyarı.style.backgroundColor = "yellow"
-        uyarı.style.fontSize = "12px"
+        uyarı.style.fontSize = "20px"
+        uyarı.style.borderRadius= "10px"
+        uyarı.style.border="2px solid black"
+        uyarı.style.color="red"
         input.value = ""
         input.focus()
        
@@ -40,7 +43,10 @@ check.addEventListener("click", () => {
         uyarı.textContent = " Tebrikler başarılı bir giriş yaptınız..."
         checkappend.appendChild(uyarı)
         uyarı.style.backgroundColor = "green"
-        uyarı.style.fontSize = "12px"
+        uyarı.style.fontSize = "20px"
+        uyarı.style.borderRadius= "10px"
+        uyarı.style.border="2px solid black"
+        uyarı.style.color="brown"
         input.value = ""
         input.focus()
     }
