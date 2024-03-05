@@ -78,3 +78,8 @@ input.addEventListener("change",()=>{
     document.querySelector(".checkıd p").remove()}
 })
 
+document.addEventListener("keydown",(e)=>{
+if(e.key==="Enter"){
+    check.click();
+}
+})
